@@ -21,8 +21,7 @@ import com.RobinNotBad.BiliClient.util.Logu;
 import com.RobinNotBad.BiliClient.util.SharedPreferencesUtil;
 import com.RobinNotBad.BiliClient.util.TerminalContext;
 
-// 导入你的二维码库
-import com.swetake.util.Qrcode;
+import com.RobinNotBad.BiliClient.util.QRCodeUtil;
 
 import java.lang.ref.WeakReference;
 
@@ -52,7 +51,7 @@ public class BiliTerminal extends Application {
             errorCatch.init(context);
 
             // 初始化二维码库（从 assets 加载数据文件）
-            Qrcode.init(this);
+            QRCodeUtil.init(this);
 
             boolean debugBuild = isDebugBuild();
             Logu.LOGV_ENABLED = SharedPreferencesUtil.getBoolean("dev_logv", debugBuild);

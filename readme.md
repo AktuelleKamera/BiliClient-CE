@@ -6,15 +6,18 @@
 [安装包下载点这里](https://gitee.com/RobinNotBad/BiliClient/releases)
 
 [官方 Gitee 仓库](https://gitee.com/RobinNotBad/BiliClient) | [Github 仓库 (由huanli233 fork)](https://github.com/huanli233/BiliClient) | [Action Build (Github)](https://github.com/huanli233/action_build_biliclient/actions)
+致敬huanli233……R.I.P.
 
 
 </div>
 
 # 介绍
-这是一个**极其轻量级**的**B站客户端**，名字来源于原神中的“虚空终端”。使用远古技术 `java` + `xml`开发，最低支持**安卓4.0.4**。（部分4.0.4设备无法运行，但也无法解决）~~这么古老的设备解码视频都费劲，要不还是留作收藏吧（~~
+原开发者是RobinNotBad，我只是拿过来fork修复喵。这是一个**极其轻量级**的**B站客户端**，名字来源于原神中的“虚空终端”。使用远古技术 `java` + `xml`开发，最低支持**安卓4.0**。（已在HTC Sensation XE/小米手机1S上实机测试）~~这么古老的设备解码视频都费劲，要不还是留作收藏吧（~~
+项目有不少地方也借鉴了一下我隔壁写的哔哩经典喵
 
-本项目借鉴了 [WearBili](https://github.com/SpaceXC/WearBili) 和 [腕上哔哩](https://github.com/luern0313/WristBilibili) 的部分开源代码和它们收集的部分 API 。
+本原项目借鉴了 [WearBili](https://github.com/SpaceXC/WearBili) 和 [腕上哔哩](https://github.com/luern0313/WristBilibili) 的部分开源代码和它们收集的部分 API 。
 界面曾使用 [WearBili](https://github.com/SpaceXC/WearBili) 的布局（现已重做）。
+本CE版还使用了隔壁的 [BiliClassic]([https://github.com/SpaceXC/WearBili](https://github.com/AktuelleKamera/BiliClassic)) 的二维码生成工具。
 **除此之外本项目与 其他第三方B站浏览软件 无任何关系**。
 **谢绝在无关评论区提及终端，谢谢喵**。
 
@@ -75,6 +78,8 @@
 > 交流二群：656364457
 >
 > 测试群：745414928
+>
+> 更新（哔哩经典的测试群，但是也欢迎来交流哔哩终端喵）：754725037
 
 # 开发
 
